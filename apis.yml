@@ -1,7 +1,29 @@
 aid: rekord
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rekord.png
 name: rekord
-description: rekord is a company surfaced as a portfolio company of point-nine and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rekord is a Dublin-based fintech platform that helps banks and fintechs automate
+  credit underwriting and customer onboarding. Its AI-native decisioning platform
+  unifies data from many sources into a single view, orchestrates decision
+  workflows, runs a natural-language policy engine, and provides AI-assisted case
+  management so credit and risk teams can make defensible, transparent decisions at
+  scale. Rekord surfaces the signal buried in large volumes of applicant and
+  transaction data to speed underwriting and onboarding while enforcing identity
+  verification and compliance. It is a portfolio company of point-nine. Rekord does
+  not currently publish a public developer API, documentation portal, or machine
+  discovery surface; this profile captures its public identity and domain-security
+  posture for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/rekord/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Underwriting
+- Onboarding
+- Credit Risk
+- Decisioning
+- Banking
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.rekordsoftware.com
+- type: Blog
+  url: https://www.rekordsoftware.com/blog
+- type: Login
+  url: http://app.rekordsoftware.com/
+- type: TermsOfService
+  url: https://www.rekordsoftware.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.rekordsoftware.com/privacy-policy
+- type: DomainSecurity
+  url: security/rekord-domain-security.yml
+- type: LLMsTxt
+  url: llms/rekord-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

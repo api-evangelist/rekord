@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "rekord",
+    "captured_at": "2026-10-11T193410",
+    "source_url": "https://www.rekordsoftware.com",
+    "source_type": "Website",
+    "file": "rekord-2026-10-11T193410.png",
+    "bytes": 67684,
+    "capture": "playwright-local"
+  }
+]
